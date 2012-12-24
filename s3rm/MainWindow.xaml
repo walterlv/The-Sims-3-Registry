@@ -1,0 +1,16 @@
+﻿<Window xmlns:Controls="clr-namespace:s3rm.Controls"  x:Class="s3rm.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525"
+        Loaded="Window_Loaded">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="160" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        
+        <Grid Background="Green">
+            <Controls:NavigationTabGroup x:Name="NavigationTabs" />
+        </Grid>
+    </Grid>
+</Window>
